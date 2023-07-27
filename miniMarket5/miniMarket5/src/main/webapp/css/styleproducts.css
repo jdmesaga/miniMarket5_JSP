@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 26, 2023, 8:18:13 PM
+    Author     : jhon_rodriguez
+*/
+
+.main {
+    font-size: 24px;
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* Estilos para los productos en la lista */
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif; 
+    background-color: #F5F5F5;
+}
+
+.product-number {
+    font-size: 18px;
+    color: #007BFF;
+    margin: 0;
+}
+
+.product-name, .product-price, .product-quantity {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Estilos para el mensaje de "No hay productos disponibles" */
+.no-products {
+    font-size: 16px;
+    text-align: center;
+    color: #999;
+}
